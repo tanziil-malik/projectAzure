@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  app:
+    image: node:18
+    container_name: employee-dev
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "4000:4000"
+    command: sh -c "npm install --no-audit --no-fund && npm run dev"
