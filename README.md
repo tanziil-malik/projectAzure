@@ -2,4 +2,5 @@
 
 ## Quick local run (node)
 1. Install deps
-2. CI/CD 
+2. CI/CD
+3. Deployee
