@@ -7,7 +7,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 4000;
 
 let employees = [
-    { id: 1, name: "Ayesha Khan", role: "Developer", salary: 90000 },
+    { id: 1, name: "Ayesha Khan", role: "Web Developer", salary: 90000 },
     { id: 2, name: "Omar Ali", role: "Designer", salary: 65000 },
     { id: 3, name: "Sara Iqbal", role: "Manager", salary: 90000 }
 ];
